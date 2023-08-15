@@ -237,3 +237,53 @@ nav .fa {
   bottom: 49%;
   opacity: 1;
 }
+
+/* contact section */
+.contact {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.contactCol {
+  flex-basis: 31%;
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+
+.contactCol div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contactCol div .fa {
+  font-size: 28px;
+  color: #52c952;
+  margin: 10px;
+  margin-right: 30px;
+}
+
+.contactCol div p {
+  padding: 0;
+}
+
+.contactCol div a {
+  text-decoration: none;
+  color: black;
+}
+
+.contactCol div h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: 400;
+}
+
+@media (max-width: 700px) {
+  .contactCol {
+    margin-top: 15px;
+    margin-left: 100px;
+  }
+}
