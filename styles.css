@@ -15,15 +15,21 @@
   position: relative;
 }
 
+.navContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: #320f4271;
+  z-index: 1000;
+}
+
 nav {
   display: flex;
   padding: 2% 6%;
   justify-content: space-between;
   align-items: center;
-}
-
-nav img {
-  width: 30px;
 }
 
 .navLinks {
@@ -299,7 +305,7 @@ nav .fa {
   width: 100%;
   text-align: center;
   padding: 30px 0;
-  background: rgba(50, 161, 78, 0.5);
+  background: #52c95294;
 }
 
 .icons .fa {
