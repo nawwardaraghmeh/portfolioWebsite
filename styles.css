@@ -148,3 +148,32 @@ nav .fa {
     width: 100%;
   }
 }
+
+/* about section */
+.aboutMe {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.aboutCol {
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+
+.aboutCol h1 {
+  padding-top: 0;
+  text-align: center;
+}
+
+.aboutCol p {
+  padding: 15px 0 25px;
+}
+
+@media (max-width: 700px) {
+  .aboutCol img {
+    width: 400px;
+    height: 300px;
+  }
+}
