@@ -2,7 +2,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Nawwar Daraghmeh</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <!-- header section -->
+    <div class="header">
+      <nav>
+        <a href="#"><img src="usericon.png" alt="" /></a>
+        <div class="navLinks" id="nav-links">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="textBox">
+        <h1>Nawwar Daraghmeh</h1>
+        <h2>
+          A passionate Computer Science student always seeking to improve.
+        </h2>
+        <a href="#projects" class="heroBtn">BROWSE MY WORK</a>
+      </div>
+    </div>
+  </body>
 </html>
