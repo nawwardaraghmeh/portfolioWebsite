@@ -93,8 +93,8 @@ nav img {
 }
 
 .heroBtn:hover {
-  border: 1px solid #52c952;
-  background: #52c952;
+  border: 1px solid #651c86;
+  background: #651c86;
   transition: 1s;
 }
 
@@ -266,7 +266,7 @@ nav .fa {
 
 .contactCol div .fa {
   font-size: 28px;
-  color: #52c952;
+  color: #651c86;
   margin: 10px;
   margin-right: 30px;
 }
@@ -292,4 +292,18 @@ nav .fa {
     margin-top: 15px;
     margin-left: 100px;
   }
+}
+
+/* footer section */
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.icons .fa {
+  color: #8124ac;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
 }
